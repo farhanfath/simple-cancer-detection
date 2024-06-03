@@ -8,4 +8,9 @@
 
     <string name="no_image">Pilih Gambar Terlebih dahulu Untuk di Analyze</string>
     <string name="unselect_image">Silahkan Pilih Gambar</string>
+    <string name="historyTitle">Riwayat Deteksi</string>
+    <string name="removeHistory">hapus dari riwayat</string>
+    <string name="titleApp">Asclepius Aplikasi Deteksi Kanker</string>
+    <string name="resultTitle">Hasil Deteksi</string>
+    <string name="NewsPart">Periksa Berita Terkait</string>
 </resources>

@@ -61,7 +61,6 @@ class ImageClassifierHelper(
             classifierListener?.onError(context.getString(R.string.no_image))
             Log.e(TAG, e.message.toString())
         }
-
     }
 
     fun classifyStaticImage(imageUri: Uri) {
@@ -91,7 +90,6 @@ class ImageClassifierHelper(
             results,
             inferenceTime
         )
-
     }
 
     companion object {

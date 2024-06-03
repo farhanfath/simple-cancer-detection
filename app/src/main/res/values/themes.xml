@@ -1,9 +1,44 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.Asclepius" parent="Theme.Material3.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background color. -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <!-- Surface color. -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Customize the action bar -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- Customize buttons -->
+        <item name="buttonStyle">@style/MyButton</item>
     </style>
 
-    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
+    <!-- Custom ActionBar style -->
+    <style name="MyActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="backgroundColor">@color/primary</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="MyButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="cardResult" parent="Widget.MaterialComponents.CardView">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="backgroundColor">@color/white</item>
+    </style>
 </resources>
